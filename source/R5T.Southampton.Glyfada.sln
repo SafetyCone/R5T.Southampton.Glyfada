@@ -3,11 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Southampton.Glyfada.Construction", "R5T.Southampton.Glyfada.Construction\R5T.Southampton.Glyfada.Construction.csproj", "{53B1B22E-8334-452B-A226-8EA3E8B907C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Southampton.Glyfada.Construction", "R5T.Southampton.Glyfada.Construction\R5T.Southampton.Glyfada.Construction.csproj", "{53B1B22E-8334-452B-A226-8EA3E8B907C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Southampton.Glyfada", "R5T.Southampton.Glyfada\R5T.Southampton.Glyfada.csproj", "{E5A393E5-9538-4DB6-BF99-2EBC967D4FA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Southampton.Glyfada", "R5T.Southampton.Glyfada\R5T.Southampton.Glyfada.csproj", "{E5A393E5-9538-4DB6-BF99-2EBC967D4FA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Southampton.Glyfada.Testing", "R5T.Southampton.Glyfada.Testing\R5T.Southampton.Glyfada.Testing.csproj", "{29DFC255-C2BF-4EED-8BBD-285193CE6B52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Southampton.Glyfada.Testing", "R5T.Southampton.Glyfada.Testing\R5T.Southampton.Glyfada.Testing.csproj", "{29DFC255-C2BF-4EED-8BBD-285193CE6B52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{F15A2E13-17EA-4801-BE3D-414048EDBCBC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Southampton.Base", "..\..\R5T.Southampton.Base\source\R5T.Southampton.Base\R5T.Southampton.Base.csproj", "{5FC47382-4E37-4133-AF52-2D2B43E63377}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Glyfada.Base", "..\..\R5T.Glyfada.Base\source\R5T.Glyfada.Base\R5T.Glyfada.Base.csproj", "{58FE731B-0ED3-45E6-9555-2EC0D07B57CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,9 +23,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{53B1B22E-8334-452B-A226-8EA3E8B907C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -58,5 +61,39 @@ Global
 		{29DFC255-C2BF-4EED-8BBD-285193CE6B52}.Release|x64.Build.0 = Release|Any CPU
 		{29DFC255-C2BF-4EED-8BBD-285193CE6B52}.Release|x86.ActiveCfg = Release|Any CPU
 		{29DFC255-C2BF-4EED-8BBD-285193CE6B52}.Release|x86.Build.0 = Release|Any CPU
+		{5FC47382-4E37-4133-AF52-2D2B43E63377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FC47382-4E37-4133-AF52-2D2B43E63377}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FC47382-4E37-4133-AF52-2D2B43E63377}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5FC47382-4E37-4133-AF52-2D2B43E63377}.Debug|x64.Build.0 = Debug|Any CPU
+		{5FC47382-4E37-4133-AF52-2D2B43E63377}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5FC47382-4E37-4133-AF52-2D2B43E63377}.Debug|x86.Build.0 = Debug|Any CPU
+		{5FC47382-4E37-4133-AF52-2D2B43E63377}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FC47382-4E37-4133-AF52-2D2B43E63377}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FC47382-4E37-4133-AF52-2D2B43E63377}.Release|x64.ActiveCfg = Release|Any CPU
+		{5FC47382-4E37-4133-AF52-2D2B43E63377}.Release|x64.Build.0 = Release|Any CPU
+		{5FC47382-4E37-4133-AF52-2D2B43E63377}.Release|x86.ActiveCfg = Release|Any CPU
+		{5FC47382-4E37-4133-AF52-2D2B43E63377}.Release|x86.Build.0 = Release|Any CPU
+		{58FE731B-0ED3-45E6-9555-2EC0D07B57CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58FE731B-0ED3-45E6-9555-2EC0D07B57CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58FE731B-0ED3-45E6-9555-2EC0D07B57CC}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{58FE731B-0ED3-45E6-9555-2EC0D07B57CC}.Debug|x64.Build.0 = Debug|Any CPU
+		{58FE731B-0ED3-45E6-9555-2EC0D07B57CC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{58FE731B-0ED3-45E6-9555-2EC0D07B57CC}.Debug|x86.Build.0 = Debug|Any CPU
+		{58FE731B-0ED3-45E6-9555-2EC0D07B57CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58FE731B-0ED3-45E6-9555-2EC0D07B57CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58FE731B-0ED3-45E6-9555-2EC0D07B57CC}.Release|x64.ActiveCfg = Release|Any CPU
+		{58FE731B-0ED3-45E6-9555-2EC0D07B57CC}.Release|x64.Build.0 = Release|Any CPU
+		{58FE731B-0ED3-45E6-9555-2EC0D07B57CC}.Release|x86.ActiveCfg = Release|Any CPU
+		{58FE731B-0ED3-45E6-9555-2EC0D07B57CC}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5FC47382-4E37-4133-AF52-2D2B43E63377} = {F15A2E13-17EA-4801-BE3D-414048EDBCBC}
+		{58FE731B-0ED3-45E6-9555-2EC0D07B57CC} = {F15A2E13-17EA-4801-BE3D-414048EDBCBC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D41BF49-2131-4CB4-A729-694C93ED72A4}
 	EndGlobalSection
 EndGlobal
