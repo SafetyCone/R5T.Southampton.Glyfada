@@ -1,2 +1,2 @@
 # R5T.Southampton.Glyfada
-A Glyfada (IGitOperator)-based ISourceControlOperator service implementation library.
+A Glyfada (IGitOperator)-based ISourceControlOperator service implementation library for the Southampton project.
