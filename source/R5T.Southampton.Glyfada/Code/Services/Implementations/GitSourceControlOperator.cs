@@ -15,9 +15,9 @@ namespace R5T.Southampton.Glyfada
             this.GitOperator = gitOperator;
         }
 
-        public void Add(string localPath)
+        public void Add(string path)
         {
-            this.GitOperator.Add(localPath);
+            this.GitOperator.Add(path);
         }
 
         public void Checkout(string repositoryUrl, string localDirectoryPath)
@@ -25,10 +25,25 @@ namespace R5T.Southampton.Glyfada
             this.GitOperator.Clone(repositoryUrl, localDirectoryPath);
         }
 
-        public void CommitToRemote(string localPath, string message)
+        public void CommitToRemote(string path, string message)
         {
-            this.GitOperator.Commit(localPath, message);
-            this.GitOperator.Push(localPath);
+            this.GitOperator.Commit(path, message);
+            this.GitOperator.Push(path);
+        }
+
+        public bool IsUnderSourceControl(string path)
+        {
+            throw new NotImplementedException();   
+        }
+
+        public string GetRepositoryRootDirectoryPath(string path)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Update(string path)
+        {
+            this.GitOperator.Pull(path);
         }
     }
 }
