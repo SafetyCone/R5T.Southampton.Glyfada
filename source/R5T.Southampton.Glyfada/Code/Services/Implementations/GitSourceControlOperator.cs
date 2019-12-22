@@ -45,5 +45,11 @@ namespace R5T.Southampton.Glyfada
         {
             this.GitOperator.Pull(path);
         }
+
+        public string GetRemoteRepositoryUrl(string path)
+        {
+            var remoteRepositoryUrl = this.GitOperator.GetRemoteRepositoryUrl(path);
+            return remoteRepositoryUrl;
+        }
     }
 }
