@@ -51,5 +51,10 @@ namespace R5T.Southampton.Glyfada
             var remoteRepositoryUrl = this.GitOperator.GetRemoteRepositoryUrl(path);
             return remoteRepositoryUrl;
         }
+
+        public SourceControlOperatorInformation GetOperatorInformation()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
