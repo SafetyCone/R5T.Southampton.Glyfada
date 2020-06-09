@@ -20,7 +20,7 @@ namespace R5T.Southampton.Glyfada
             this.GitOperator.Add(path);
         }
 
-        public void Checkout(string repositoryUrl, string localDirectoryPath)
+        public void Checkout(string repositoryUrl, string localDirectoryPath, string username, string password)
         {
             this.GitOperator.Clone(repositoryUrl, localDirectoryPath);
         }
