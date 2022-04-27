@@ -1,11 +1,11 @@
-﻿using System;
+using System;
 
-using R5T.Glyfada;
+using R5T.Glyfada;using R5T.T0064;
 
 
 namespace R5T.Southampton.Glyfada
-{
-    public class GitSourceControlOperator : ISourceControlOperator
+{[ServiceImplementationMarker]
+    public class GitSourceControlOperator : ISourceControlOperator,IServiceImplementation
     {
         private IGitOperator GitOperator { get; }
 
