@@ -43,6 +43,7 @@ namespace R5T.Southampton.Glyfada
 
         public void Update(string path)
         {
+            this.GitOperator.Fetch(path);
             this.GitOperator.Pull(path);
         }
 
